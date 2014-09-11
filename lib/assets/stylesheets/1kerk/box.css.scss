@@ -1,0 +1,28 @@
+@import "variables";
+
+.box .box-header a:not(.btn) {
+  color: $primaryColor;
+}
+
+.box.box-info {
+  border-top-color: $infoColor;
+}
+
+.box.box-success {
+  border-top-color: $successColor;
+}
+
+.box {
+  border-top: none !important;
+  border-radius: 0;
+}
+
+.box .todo-list > li {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #EEE;
+}
+
+.box .todo-list > li:last-child {
+  border-bottom: none;
+}

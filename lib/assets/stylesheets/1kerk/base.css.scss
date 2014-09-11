@@ -1,0 +1,31 @@
+@import "variables";
+
+a {
+  color: $primaryColor * 0.8;
+
+  &:hover {
+    color: $primaryColorHover;
+  }
+}
+
+html, body {
+  font-family: Lato, sans-serif;
+}
+
+.skin-blue .left-side {
+  box-shadow: none;
+  background: #EFEFEF;
+}
+
+.skin-blue .sidebar > .sidebar-menu > li {
+  border-top: none;
+  border-bottom: none;
+}
+
+.skin-blue .sidebar {
+  border-bottom: none;
+}
+
+.footer {
+  display: none;
+}

@@ -1,0 +1,35 @@
+@import "variables";
+
+.btn.btn-primary {
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+
+  &:hover {
+    background-color: $primaryColorHover;
+    border-color: $primaryColorHover;
+  }
+}
+
+.btn.btn-success {
+  background-color: $successColor;
+  border-color: $successColor;
+
+  &:hover {
+    background-color: $successColorHover;
+    border-color: $successColorHover;
+  }
+}
+
+.btn.btn-info {
+  background-color: $infoColor;
+  border-color: $infoColor;
+
+  &:hover {
+    background-color: $infoColorHover;
+    border-color: $infoColorHover;
+  }
+}
+
+.btn, .toggle-enabled, .toggle-disabled {
+  border-radius: 0;
+}

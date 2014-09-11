@@ -1,0 +1,46 @@
+@import "variables";
+
+.bg-green {
+  background-color: $successColor !important;
+}
+
+.bg-orange {
+  background-color: $warningColor !important;
+}
+
+.bg-teal {
+  background-color: $infoColor !important; 
+}
+
+.bg-red {
+  background-color: $dangerColor !important; 
+}
+
+.bg-light-blue {
+  background-color: $infoColor !important;   
+}
+
+.dropdown-toggle.bg-teal {
+  border-left: 1px solid $infoColor * 0.9;
+}
+
+.stream .buttons {
+  box-shadow: none;
+  border: none;
+  background: $lightColor;
+  border-radius: 0;
+}
+
+.page-controls {
+  box-shadow: none;
+  border: none;
+  background: $lightColor;
+  padding: 0 0 10px 0;
+  margin: 0;
+  background: none;
+}
+
+.timeline > li.time-label > span {
+  border-radius: 0;
+  box-shadow: none;
+}

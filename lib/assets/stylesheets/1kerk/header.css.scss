@@ -1,0 +1,21 @@
+@import "variables";
+
+.skin-blue {
+  .navbar {
+    background-color: $headerColor;
+  }
+
+  .logo {
+    background-color: $headerColor * 0.9;
+ 
+    &:hover {
+      background-color: $headerColor * 0.8;
+    }
+  }
+
+.right-side > .content-header {
+    box-shadow: none;
+    border-bottom: 1px solid #EEE;
+    background-color: #FFF;
+  }
+}
