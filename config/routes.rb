@@ -167,6 +167,7 @@ OneBody::Application.routes.draw do
     end
   end
 
+  resources :events
 
   get 'pages/*path' => 'pages#show_for_public', via: :get, as: :page_for_public
 
