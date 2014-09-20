@@ -1,0 +1,7 @@
+en:
+
+  events:
+
+    index:
+      heading: 'Upcoming events'
+      heading_with_group: 'Upcoming events for %{group}'

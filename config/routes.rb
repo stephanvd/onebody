@@ -94,6 +94,7 @@ OneBody::Application.routes.draw do
         post :update_position
       end
     end
+    resources :events
     resource :stream
     resource :photo
     resources :prayer_requests, :albums, :attachments

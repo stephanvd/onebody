@@ -3,8 +3,12 @@ class Event < ActiveRecord::Base
   belongs_to :person
 
   scope_by_site_id
-  scope :future, -> { where('ends_at > ?', Time.now) }
+  scope :future, -> { where('starts_at >= ?', DateTime.now) }
 
-  validates :group, presence: true
-  validates :person, presence: true
+  with_options presence: true do |e|
+    e.validates :name
+    e.validates :starts_at
+    e.validates :group
+    e.validates :person
+  end
 end
