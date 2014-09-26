@@ -5,3 +5,5 @@ en:
     index:
       heading: 'Upcoming events'
       heading_with_group: 'Upcoming events for %{group}'
+    new:
+      heading: 'New Event'
